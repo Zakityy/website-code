@@ -58,3 +58,11 @@ body {
 #hr {
     width: 3in;
 }
+
+#error {
+    bottom: 10in;
+    size: 10px;
+    border: #3B5998;
+    border-color: blue;
+    opacity: 56%;
+}
