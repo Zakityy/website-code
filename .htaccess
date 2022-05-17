@@ -1,1 +1,6 @@
-Sorry you cannot view this!!
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+ErrorDocument 404 /error.html
+ErrorDocument 403 /forbidden.html
